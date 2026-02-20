@@ -201,7 +201,6 @@ This separation mirrors real-world machine learning workflows, where **data unde
 
 - **Python**
 - **scikit-learn**
-- **XGBoost**
 - NumPy, Pandas
 - Jupyter Notebook
 
@@ -212,6 +211,6 @@ This separation mirrors real-world machine learning workflows, where **data unde
 This assignment demonstrates that reliable deployment depends on:
 - Careful data understanding through EDA
 - Clean, reproducible datasets
-- Disciplined model comparison
+- Disciplined model optimization and comparison
 - Selecting models based on **risk-aware metrics**, not accuracy alone
 
