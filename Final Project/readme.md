@@ -39,54 +39,6 @@ The project culminates in a fully deployed and demonstrated machine learning sys
 
 ---
 
-## 📁 Folder Structure (GitHub Repository)
-
-```text
-customer-churn-mlops-project/
-│
-├── data/
-│   └── Telco-Customer-Churn-prepared.csv
-│       # Prepared dataset (add to .gitignore if too large)
-│
-├── notebooks/
-│   ├── ANA-680_FinalProject_EDA_8-30-2025.ipynb
-│   │   # EDA, cleaning, feature engineering
-│   └── ANA-680_FinalProject_Model_8-30-2025.ipynb
-│       # Training, validation, metrics
-│
-├── app/
-│   ├── app.py                          # Flask application
-│   ├── models/
-│   │   ├── churn_model.pkl             # Trained ML model
-│   │   └── scaler.pkl                  # Feature scaler
-│   ├── requirements.txt                # Python dependencies
-│   ├── templates/
-│   │   └── index.html                  # HTML form for predictions
-│   ├── static/                         # (Optional) CSS, JS files
-│   │   └── style.css
-│   ├── Dockerfile                      # Containerize Flask app
-│   ├── .dockerignore                   # Docker exclusions
-│   ├── Procfile                        # Heroku deployment support
-│   ├── .python-version                 # Python runtime specification
-│   ├── heroku.yml                      # Docker-based CI/CD config
-│   └── .github/
-│       └── workflows/
-│           └── main.yml                # GitHub Actions CI/CD workflow
-│
-├── kubernetes/
-│   ├── deployment.yaml                 # Kubernetes deployment config
-│   └── service.yaml                    # Kubernetes service config
-│
-├── sagemaker/
-│   ├── maintenance.ipynb               # Endpoint cleanup & monitoring
-│   ├── rebuild_model.sh                # Model artifact rebuild + S3 export
-│   ├── train_model.ipynb               # Streamlined training for SageMaker
-│   └── deploy_model.ipynb              # Container-based SageMaker deployment
-│
-└── README.md
-
----
-
 ## 📊 Customer Churn Prediction - MLOps Project
 
 This project predicts customer churn in a subscription-based telecom business using a machine learning pipeline deployed through modern MLOps practices. The model is built, containerized, and deployed using tools such as Flask, Docker, GitHub Actions, Heroku, AWS SageMaker, and Kubernetes.
@@ -173,6 +125,53 @@ To build and deploy a predictive model that identifies customers likely to churn
 - [x] Set up CI/CD and deploy on Heroku    https://telco-customer-churn-pred-44440b37f0f2.herokuapp.com/
 - [ ] Redeploy via SageMaker
 - [x] Deploy with Kubernetes
-- [x] Final demo
+
+## 📁 Folder Structure (GitHub Repository)
+
+```text
+customer-churn-mlops-project/
+│
+├── data/
+│   └── Telco-Customer-Churn-prepared.csv
+│       # Prepared dataset (add to .gitignore if too large)
+│
+├── notebooks/
+│   ├── ANA-680_FinalProject_EDA_8-30-2025.ipynb
+│   │   # EDA, cleaning, feature engineering
+│   └── ANA-680_FinalProject_Model_8-30-2025.ipynb
+│       # Training, validation, metrics
+│
+├── app/
+│   ├── app.py                          # Flask application
+│   ├── models/
+│   │   ├── churn_model.pkl             # Trained ML model
+│   │   └── scaler.pkl                  # Feature scaler
+│   ├── requirements.txt                # Python dependencies
+│   ├── templates/
+│   │   └── index.html                  # HTML form for predictions
+│   ├── static/                         # (Optional) CSS, JS files
+│   │   └── style.css
+│   ├── Dockerfile                      # Containerize Flask app
+│   ├── .dockerignore                   # Docker exclusions
+│   ├── Procfile                        # Heroku deployment support
+│   ├── .python-version                 # Python runtime specification
+│   ├── heroku.yml                      # Docker-based CI/CD config
+│   └── .github/
+│       └── workflows/
+│           └── main.yml                # GitHub Actions CI/CD workflow
+│
+├── kubernetes/
+│   ├── deployment.yaml                 # Kubernetes deployment config
+│   └── service.yaml                    # Kubernetes service config
+│
+├── sagemaker/
+│   ├── maintenance.ipynb               # Endpoint cleanup & monitoring
+│   ├── rebuild_model.sh                # Model artifact rebuild + S3 export
+│   ├── train_model.ipynb               # Streamlined training for SageMaker
+│   └── deploy_model.ipynb              # Container-based SageMaker deployment
+│
+└── README.md
+
+---
 
 ---
