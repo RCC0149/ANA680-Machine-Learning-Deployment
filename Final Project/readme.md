@@ -87,6 +87,8 @@ customer-churn-mlops-project/
 
 ---
 
+---
+
 # 📊 Customer Churn Prediction - MLOps Project
 
 This project predicts customer churn in a subscription-based telecom business using a machine learning pipeline deployed through modern MLOps practices. The model is built, containerized, and deployed using tools such as Flask, Docker, GitHub Actions, Heroku, AWS SageMaker, and Kubernetes.
