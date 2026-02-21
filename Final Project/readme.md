@@ -42,7 +42,7 @@ The project culminates in a fully deployed and demonstrated machine learning sys
 
 ## 📁 Folder Structure (GitHub Repository)
 
-```text
+**```text**
 customer-churn-mlops-project/
 │
 ├── data/
