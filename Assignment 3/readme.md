@@ -12,8 +12,6 @@
 
 This assignment focuses on **end-to-end model development** for customer churn prediction using the **Kaggle Telco Customer Churn dataset**. The work includes **exploratory data analysis (EDA)**, **feature engineering**, and **training and tuning an Artificial Neural Network (ANN)**.  
 
-The final ANN model selected in this assignment is **carried forward and deployed in the Final Project**, making this work the analytical foundation for deployment.
-
 ---
 
 ## Dataset
@@ -96,23 +94,6 @@ The tuned ANN was selected based on:
 - Explicit threshold controllability
 - Suitability for downstream deployment
 
-The finalized model configuration was **locked** and reused in the **Final Project deployment** without further retraining.
-
----
-
-## Relationship to Final Project
-
-- **Assignment 3:**  
-  - EDA and feature engineering  
-  - ANN model training and tuning  
-  - Threshold analysis and model selection  
-
-- **Final Project:**  
-  - Deployment of the selected ANN model  
-  - Infrastructure, serving, and runtime considerations  
-
-This separation mirrors real-world ML workflows where **model development precedes deployment**.
-
 ---
 
 ## Tools & Technologies
@@ -131,6 +112,3 @@ This assignment demonstrates the ability to:
 - Perform structured EDA for business-relevant ML problems
 - Engineer features for neural network models
 - Tune and evaluate ANNs using deployment-aware metrics
-- Select and lock a model configuration for production deployment
-
-Assignment 3 establishes the **modeling backbone** for the Final Project’s deployment phase.
