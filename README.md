@@ -34,7 +34,7 @@ Upon successful completion of the course, students are able to:
 - Integrate CI/CD workflows for automated testing and deployment  
 - Apply monitoring and optimization techniques to deployed models  
 
-These outcomes align with the program-level objectives of applying Python for AI/ML, evaluating models, and deploying ML solutions in production environments :contentReference[oaicite:1]{index=1}.
+These outcomes align with the program-level objectives of applying Python for AI/ML, evaluating models, and deploying ML solutions in production environments.
 
 ---
 
