@@ -96,23 +96,22 @@ Local deployment was intentionally used to focus on **Kubernetes fundamentals**,
 
 ## Repository Structure
 
----
-
+```text
+.
 ├── app/
-│ ├── model/
-│ │ └── iris_knn_model.pkl
-│ ├── templates/
-│ │ └── index.html
-│ ├── app.py
-│ ├── Dockerfile
-│ ├── deployment.yaml
-│ ├── service.yaml
-│ ├── requirements.txt
+│   ├── model/
+│   │   └── iris_knn_model.pkl
+│   ├── templates/
+│   │   └── index.html
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── requirements.txt
 ├── data/
-│ └── iris.data
+│   └── iris.data
 └── train_model.py
-
----
+```
 
 ---
 
