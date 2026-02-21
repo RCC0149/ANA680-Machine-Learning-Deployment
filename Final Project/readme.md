@@ -3,7 +3,6 @@
 # Customer Churn Prediction – MLOps Final Project
 
 **Author:** Randall Crawford  
-
 **Course:** ANA 680 – Machine Learning Deployment  
 
 ---
@@ -42,7 +41,7 @@ The project culminates in a fully deployed and demonstrated machine learning sys
 
 ## 📁 Folder Structure (GitHub Repository)
 
-**```text**
+```text
 customer-churn-mlops-project/
 │
 ├── data/
@@ -85,8 +84,6 @@ customer-churn-mlops-project/
 │   └── deploy_model.ipynb              # Container-based SageMaker deployment
 │
 └── README.md
-
----
 
 ---
 
