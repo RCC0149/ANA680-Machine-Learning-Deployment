@@ -96,8 +96,8 @@ Local deployment was intentionally used to focus on **Kubernetes fundamentals**,
 
 ## Repository Structure
 
-```text
-.
+```
+
 ├── app/
 │   ├── model/
 │   │   └── iris_knn_model.pkl
@@ -111,6 +111,7 @@ Local deployment was intentionally used to focus on **Kubernetes fundamentals**,
 ├── data/
 │   └── iris.data
 └── train_model.py
+
 ```
 
 ---
