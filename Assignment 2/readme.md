@@ -12,7 +12,7 @@
 
 This assignment establishes the **analytical and modeling foundation** for a production deployment completed in **Assignment 4**. The work includes **exploratory data analysis (EDA)**, **data cleaning**, **model benchmarking**, **hyperparameter optimization**, and **final model selection** using the **Wisconsin Breast Cancer Diagnostic (WBCD)** dataset.
 
-✅ The final model selected here (**XGBoost**) is the **same model deployed in Assignment 4**.
+✅ The final model selected here (**LinearSVM**) is the **same model deployed in Assignment 4**.
 
 ---
 
