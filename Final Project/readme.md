@@ -126,6 +126,8 @@ To build and deploy a predictive model that identifies customers likely to churn
 - [ ] Redeploy via SageMaker
 - [x] Deploy with Kubernetes
 
+---
+
 ## 📁 Folder Structure (GitHub Repository)
 
 ```text
@@ -171,7 +173,3 @@ customer-churn-mlops-project/
 │   └── deploy_model.ipynb              # Container-based SageMaker deployment
 │
 └── README.md
-
----
-
----
