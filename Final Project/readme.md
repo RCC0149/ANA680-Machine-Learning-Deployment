@@ -162,5 +162,4 @@ customer-churn-mlops-project/
 │   ├── rebuild_model.sh                # Model artifact rebuild + S3 export
 │   ├── train_model.ipynb               # Streamlined training for SageMaker
 │   └── deploy_model.ipynb              # Container-based SageMaker deployment
-│
-└── README.md
+
