@@ -105,16 +105,6 @@ To build and deploy a predictive model that identifies customers likely to churn
 
 ---
 
-## 🧠 Model Performance
-
-> *After model training and tuning...*
-
-- Accuracy: `77.73%`
-- F1 Score: `66.81%`
-- Recall: `82.72%`
-
----
-
 ## ✅ To-Do Checklist
 
 - [x] Select dataset & define problem
