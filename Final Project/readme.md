@@ -3,6 +3,7 @@
 # Customer Churn Prediction – MLOps Final Project
 
 **Author:** Randall Crawford  
+
 **Course:** ANA 680 – Machine Learning Deployment  
 
 ---
