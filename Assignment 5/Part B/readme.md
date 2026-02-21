@@ -118,8 +118,7 @@ A lightweight **Flask application** (`app.py`) is included to:
 ├── scaler.pkl                 # Preprocessing scaler
 ├── wine_model.pkl             # Trained linear regression model
 ├── requirements.txt           # Python dependencies
-└── templates/
-└── index.html             # Web interface template
+└── templates/index.html       # Web interface template
 
 ```
 
