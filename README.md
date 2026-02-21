@@ -64,7 +64,7 @@ The course emphasizes practical, hands-on experience with widely used tools and 
 - **Cloud Platforms:** Heroku, AWS (SageMaker)  
 - **Orchestration:** Kubernetes, Minikube  
 
-Students are encouraged to justify and select appropriate tools for each stage of the ML lifecycle rather than following a single prescribed stack :contentReference[oaicite:2]{index=2}.
+Students are encouraged to justify and select appropriate tools for each stage of the ML lifecycle rather than following a single prescribed stack.
 
 ---
 
@@ -91,7 +91,7 @@ The final project serves as a capstone experience, requiring students to:
 - Implement CI/CD, containerization, and cloud deployment  
 - Demonstrate the deployed system  
 
-The project emphasizes **practical MLOps execution** rather than theoretical modeling alone :contentReference[oaicite:3]{index=3}.
+The project emphasizes **practical MLOps execution** rather than theoretical modeling alone.
 
 ---
 
