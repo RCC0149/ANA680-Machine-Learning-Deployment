@@ -25,7 +25,7 @@ The project culminates in a fully deployed and demonstrated machine learning sys
 | **Aug 29**      | Kubernetes deployment              |
 | **Aug 30**      | Final demo prep, schedule Zoom     |
 
----
+**---**
 
 ## ✅ Deliverables
 
