@@ -61,7 +61,8 @@ The trained model and associated preprocessing artifacts were serialized and reu
 The following files support deployment:
 - `Procfile` – Defines the web process for Heroku  
 - `requirements.txt` / `constraints.txt` – Python dependencies  
-- `.python-version` – Runtime specification  
+- `runtime.txt` – Runtime specification
+- `templates/index.html` - Web service format 
 - `.github/workflows/deploy.yml` – CI/CD deployment workflow  
 
 ### 3. Cloud Hosting (Heroku)
